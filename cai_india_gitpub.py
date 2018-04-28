@@ -56,7 +56,7 @@ data5[' Per Candy']=data5[' Per Candy'].astype(float)
 
 
 
-# 调整新插入列sportday的顺序，使得看起来更舒服，习惯
+
 col1=['No.','sportday','Growth','Grade Standard','Grade','Staple','Micronaire','Strength/ GPT','Per Quintal',' Per Candy','PerCandy']
 # print parms_pd.reindex(columns=col1)
 data5=data5.reindex(columns=col1)
